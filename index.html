@@ -1,293 +1,127 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Welcome to my  website!">
-    <meta name="author" content="⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐">
-    <meta property="og:url"                content="https://t.github.io/" />
-    <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Find about me " />
-    <meta property="og:description"        content="Welcome to my personal web!" />
-    <meta property="og:image"              content="https://t.me/danuma01" />
-    <title>⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐  </title>
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="./assets/img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="./assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="./assets/img/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="./assets/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-        crossorigin="anonymous"></script>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet">
-    <!-- Fonts CSS-->
-    <link rel="stylesheet" href="css/heading.css">
-    <link rel="stylesheet" href="css/body.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
 </head>
+<body>
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Lasiya's home page</a>
-            <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
-                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#portfolio">PROJECTS</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#about">ABOUT</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                            href="#contact">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="">
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading mb-0">⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐ </h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-id-badge"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="pre-wrap masthead-subheading font-weight-light mb-0"> Self learner <br> Graphic Designer </br> Java . Python . Shell </br>Founder Of Danuma Project </p>
-        </div>
-    </header>
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
-            <!-- Portfolio Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PROJECTS</h2>
-            </div>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Portfolio Grid Items-->
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="card h-100">
-                        <a target="_blank" href="t.me/danuma01"><img class="card-img-top" src="./assets/img/proj_10.jpg" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a target="_blank" href="https://t.me/Danuma01"> Main project " දැනුම™ "</a>
-                            </h4>
-                            <p class="card-text">
-                            	<a target="_blank" href="https://t.me/Danuma01">
-                                <span class="badge badge-primary">Main Group</span> </a>                           
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
 
-                            	<a target="_blank" href="https://t.me/alxams">
-                                <span class="badge badge-danger">Main Channel</span> </a>                           
-            <h6 class="masthead-heading mb-0"> Main purpose  of Danuma Project </h1>
-        
-<h8    •To help gifted children who have difficulty buying books
-<br>
-•To teach free to children with financial difficulties
-<br>
-•To build a society that helps each other
-<br>
-•To build one society overcoming the gap between rich and poor
-<br>
-•To create a new generation of  literature enjoyment
-<br>
-•To bring literary values ​​closer to them in a digital way, even if they are digitized.
- </h8>
- <br>
-        <h4 class="card-title">
-                                 Sub projects 
-                            </h4>
-                                                        <p class="card-text">
-                            	<a target="_blank" href="https://t.me/D_bot_Ai">
-                                <span class="badge badge-primary">Telegaram bots project</span> </a> </p>
- 
-                            <p	<br> <a target="_blank" href="https://t.me/D_A_I_bot"> •Dewmi bot </a> M. G. H.
-                            <br> <a target="_blank" href="https://t.me/D_A_I_bot"> •🦋🌸චූටි සමනලී🌸🦋</a>M. G. H.
-<br> <a target="_blank" href="https://t.me/Tetsonilbot"> •Quinn bot</a>M. G. H.
-<br> <a target="_blank" href="https://t.me/Renamerv12bot"> •Reanamer bot </a> Tool 
-<br> <a target="_blank" href="https://t.me/Dbsend_coverbot"> •Anonymos sender </a> Tool 
-<br> <a target="_blank" href="https://t.me/Dprojbot"> •URL Downloader </a> Tool
-<br> 
-<!-- CSS Code -->
-<style type="text/css" scoped>
-small.GeneratedText {
-color:#33FF00;
-}
-</style>
-
-<!-- HTML Code -->
-<small class="GeneratedText">More new bots are coming soon...</small>
-
-           
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="card h-100">
-                        <a target="_blank" href="https://t.me/danumabooklist/31"><img class="card-img-top" src="./assets/img/Whatsapp.jpg" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a target="_blank" href="https://t.me/danumabooklist/31">WhatsApp Groups</a>
-                            </h4>
-                            <p class="card-text">
-                                <br> 
-                                     <h6 class="masthead-heading mb-0"> About Groups </h1>
-       • women and men can use the group freely 
-<br>
-  • with maximum discipline.</h8><br>
-    • Daily new short stories📝</h8><br>
-      • Stories released in parts 📖</h8><br>
-      	     • Advice for life💉</h8><br>
-      	     • And contemporary social discourse📢.</h8><br>
-      	     • Articles about new technology 📲</h8><br>
-      	     • Articles about the mysterious and the unnatural 👽👻</h8><br>
-<br> <a target="_blank" href="https://chat.whatsapp.com/JVEdzU42Qmw3KsOkBApTOM"> • Whatsapp Group 01 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/Le60XJtUJMK1zZBwyJfstu"> • Whatsapp Group 02 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/DjG7hi3kL7mCzP9UwRe38m"> • Whatsapp Group 03 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/DJzGuFUOXZOFRlG6APWR6a"> • Whatsapp Group 04 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/FaPZBiAK37Y2my4RenHm5K"> • Whatsapp Group 05 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/GsqFiZpJhC61zOIwmyrTD0"> • Whatsapp Group 06 </a> 
-<br> <a target="_blank" href="https://chat.whatsapp.com/DMhkJIM1NCm8Nsh5iBeNaF"> • Whatsapp Group 07 </a> 
-                                </br></br><!-- CSS Code -->
-<style type="text/css" scoped>
-code.GeneratedText {
-color:#FF3366;background-color:#FFCCFF;
-}
-</style>
-
-<!-- HTML Code -->
-<code class="GeneratedText">To joine touch on group number </code>
-
-                            
-      
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
-            <!-- About Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
-            </div>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-random"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- About Section Content-->
-            <div class="text-center">
-                <p class="pre-wrap lead">Biginer about programming </p>
-                <p class="pre-wrap lead">Works with Few languages , vs , TF Lite.</p>
-                <p class="pre-wrap lead">Studying About Networking CCNA</p>
-                <p class="pre-wrap lead">Proud about im  Sri Lankan person</p>
-            </div>
-        </div>
-    </section>
-    <section class="page-section" id="contact">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <div class="text-center">
-                <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
-            </div>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-phone"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Contact Section Content-->
-            <div class="row justify-content-center">
-                <div class="col-lg-4">
-                    <div class="d-flex flex-column align-items-center">
-                        <a href="https://t.me/Danuma_admin_bot"><div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div></a>
-                        <div class="text-muted">Phone</div>
-                        <div class="lead font-weight-bold"><a href="https://t.me/Danuma_admin_bot">Contact bot </a></div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="d-flex flex-column align-items-center">
-                        <a href="mailto: ccxplorlasindu@gmail.com"><div class="icon-contact mb-3"><i class="far fa-envelope"></i></div></a>
-                        <div class="text-muted">Email</div><a class="lead font-weight-bold"
-                            href="mailto: ccxplorlasindu@gmail.com">ccxplorlasindu@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">This messege from Lasiya </h4>
-                    <p class="pre-wrap lead mb-0"> </p>
-                </div>
-                <!-- Footer Social Icons-->
-                
-                    
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <h6 class="mb-4"> ∆ Do not get your step back <br> ∆ Do not give up without try <br> ∆ Never trust anyone <br> ∆ Proud about yourself</h6>
-                    <p class="pre-wrap lead mb-0"> </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Copyright Section-->
-    <section class="copyright py-4 text-center text-white">
-        <div 
-
-<!-- CSS Code -->
-<style type="text/css" scoped>
-samp.GeneratedText {
-color:#00FFCC;background-color:#000033;
-}
-</style>
-
-<!-- HTML Code -->
-<samp class="GeneratedText"> All rights Received
-⧏ 𝒍𝒂𝒔𝒊𝒚𝒂 / ⧐™</samp>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
   </div>
-        
-    </section>
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-    <div class="scroll-to-top d-lg-none position-fixed"><a
-            class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
-                class="fa fa-chevron-up"></i></a></div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- GitHub buttons -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
 
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
